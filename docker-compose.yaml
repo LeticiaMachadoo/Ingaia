@@ -1,0 +1,15 @@
+version: '1.0'
+
+services:
+    client-dev:
+        container_name: docker-client-dev
+        build:
+            context: .
+            dockerfile: Dockerfile
+        command: yarn start
+        volumes:
+            - '.:/home/client/'
+            - '/home/client/node_modules'
+        ports:
+            - 3000:3000
+        tty: true

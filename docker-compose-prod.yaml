@@ -1,0 +1,9 @@
+version: '1.0'
+services:
+    client-prod:
+        container_name: docker-client-prod
+        build:
+            context: .
+            dockerfile: Dockerfile.prod
+        ports:
+            - '8080:80'

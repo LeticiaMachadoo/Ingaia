@@ -1,0 +1,11 @@
+{
+    "primary": "#CBD736",
+    "secondary": "#1B1B1B",
+    "link": "#0065CB",
+    "glyphGray": "#D3D3D3",
+    "glyphGraySecondary": "#8C8C8C",
+    "glyphGrayTertiary": "#9F9F9F",
+    "warning": "#E30000",
+    "white": "#FFFFFF",
+    "black": "#000000"
+}
